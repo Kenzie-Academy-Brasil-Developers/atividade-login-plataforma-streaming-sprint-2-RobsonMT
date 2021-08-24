@@ -1,4 +1,4 @@
-/* Geral */
+/* reset */
 html, body, header, main, footer {
   margin: 0;
   padding: 0;
@@ -202,6 +202,7 @@ form .info .bigger span {
 
 form a {
   color: #1168D0;
+  cursor: pointer;
 }
 
 @media (max-width: 470px) {

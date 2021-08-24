@@ -1,13 +1,4 @@
-
-$black:rgba(0,0,0,0.6);
-$grey-dark:#333333;
-$grey:#6e6b6b;
-$grey-light:#B3B3B3;
-$white:#fff;
-$red:#E62213;
-$blue:#1168D0;
-
-/* Geral */
+/* reset */
 html,body,header,main,footer{
     margin:0;
     padding: 0;
@@ -15,6 +6,7 @@ html,body,header,main,footer{
     box-sizing: border-box;
 }
 
+// variables
 @mixin containerFlex($flex_Direction,$flex_wrap,$justify_Content){
     display: flex;
     flex-direction: $flex_Direction;
@@ -23,6 +15,16 @@ html,body,header,main,footer{
     align-items: center;
 }
 
+// colors
+$black:rgba(0,0,0,0.6);
+$grey-dark:#333333;
+$grey:#6e6b6b;
+$grey-light:#B3B3B3;
+$white:#fff;
+$red:#E62213;
+$blue:#1168D0;
+
+// geral
 body{
     background-image: url('../img/background-image.jpg');
     background-size: cover;
@@ -137,6 +139,7 @@ form{
     }
     a{
         color: $blue;
+        cursor: pointer;
     }
     
 }
